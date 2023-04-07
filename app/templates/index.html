@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Detección facial con Flask y OpenCV</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" type="text/css">
+  </head>
+  <body>
+    <h1>Login con Reconocimiento Facial</h1>
+    <div class="container-image">
+      <h1>Login</h1>
+      <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    </div>
+  </body>
+</html>
